@@ -1,0 +1,61 @@
+/* General Styles */
+.body-class {
+    background-color: rgb(248, 232, 207);
+}
+
+/* Header Styles */
+.header-class {
+    background-color: rgb(255, 184, 184);
+    color: rgb(106, 17, 17);
+}
+
+/* Navigation Styles */
+.nav-class {
+    background-color: rgb(184, 248, 227);
+    color: rgb(232, 60, 232);
+    font-weight: bold;
+}
+
+/* Title and Section Title Styles */
+.title-class, .section-title-class {
+    background-color: rgb(216, 176, 230);
+}
+
+/* Text Styles */
+.text-class {
+    color: rgb(106, 17, 17);
+}
+
+/* Image Styles */
+.image-class {
+    border: 5px solid #2980b9;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Form and Button Styles */
+.form-class, .button-class {
+    background-color: rgb(249, 219, 229);
+    color: rgb(106, 17, 17);
+
+}   
+
+/* Footer Styles */
+.footer-class {
+    background-color: rgb(184, 248, 227);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-class {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-class {
+        max-width: 90%;
+    }
+}
+
